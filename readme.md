@@ -21,7 +21,9 @@ My Spesification:
   
 ### (Optional) Setting up PATH:
 If you was do step above, you might thinking...  
+
 > Hmm i must running using ./ again  
+  
 And here I share how to avoid those problem, and in the future you will only  
 setting permission only and call file name. Straight!  
   
