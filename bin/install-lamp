@@ -1,0 +1,29 @@
+#!usr/bin/zsh
+# Installing AMP in Manjaro with only run script
+
+# Update System
+sudo pacman -Syu
+
+# Apache
+echo "Installing latest Apache"
+sudo pacman -S apache
+# Ganti line menjadi koment
+sudo systemctl enable httpd
+sudo systemctl restart httpd
+sudo systemctl status httpd
+
+echo "You can test apache with browse localhost in your browser"
+
+# Maria DB
+sudo pacman -S mysql
+1
+Y
+sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+sudo systemctl enable mysqld
+sudo systemctl start mysqld
+sudo systemctl status mysqld
+sudo mysql_secure_installation
+
+# PHP
+sudo pacman -S php php-apache
+

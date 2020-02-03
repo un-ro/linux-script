@@ -1,9 +1,6 @@
 # My Collection of shell script
 My Spesification:  
-- OS: **Manjaro 18.1.4 Juhraya**
-- DE: KDE
-- Shell: **ZSH**  
-- Text Editor: **Vim** + *Many Plugin*
+![My screenfetch](/asset/screen.png "Screen Fetch")
 
 ## Know your shell
 ### Determine your shell first:  
