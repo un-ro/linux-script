@@ -1,5 +1,5 @@
 # My Collection of shell script
-My Spesification:  
+Current Distro:  
 ![My screenfetch](/asset/screen.png "Screen Fetch")
 
 ## Know your shell
